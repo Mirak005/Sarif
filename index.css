@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*GENERAL STYLING*/
+.section-title {
+  color: rgb(222, 162, 51);
+  margin-left: 15px;
+}
+
+.section-content {
+  border-top: 1px solid rgb(222, 162, 51);
+  width: 80%;
+  color: white;
+  padding: 15px;
+  margin: 15px;
+}
+
+.section-title {
+  color: rgb(222, 162, 51);
+  margin-left: 15px;
+}
+
+.section-content {
+  border-top: 1px solid rgb(222, 162, 51);
+  width: 80%;
+  color: white;
+  padding: 5px;
+  margin: 15px;
+}
+
+.section-title-dark {
+  color: #184138;
+  margin-left: 15px;
+}
+
+.section-content-dark {
+  border-top: 1px solid #184138;
+  width: 80%;
+  color: #184138;
+  padding: 15px;
+  margin: 15px;
+}
+
+.dark-green {
+  background-color: #184138;
+}
+
+/*MAIN*/
+
+main {
+  display: flex;
+  max-width: 850px;
+  margin: auto;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+main > section {
+  width: 50%;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section > * {
+  padding: 0.5rem;
+}
+
+/* GENREAL INFO*/
+
+.general-info {
+  padding: 2rem;
+  color: white;
+  font-size: 1em;
+  width: 80%;
+  align-self: center;
+}
+
+.general-info > h1 {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.general-info > ul {
+  list-style: none;
+}
+.general-info > ul > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.general-info .bx {
+  margin-right: 15px;
+}
+
+.left-section > .iterests {
+  margin-left: 15px;
+}
+
+/*SKILLS*/
+.skills {
+  width: 100%;
+}
+
+.skills > ul > li {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*LEFT SECTION*/
+.experience-card {
+  margin-bottom: 30px;
+}
